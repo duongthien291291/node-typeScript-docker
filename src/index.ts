@@ -4,6 +4,6 @@ const app = express();
 
 app.get("/", (req, res) => res.json({ answer: 43 }));
 
-app.listen(process.env.PORT || 8080, () => {
-  console.log("server running on port 8080");
+app.listen(process.env.PORT || 80, () => {
+  console.log("server running on port 80");
 });
